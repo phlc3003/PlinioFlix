@@ -1,0 +1,58 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Sumana", sans-serif;
+    margin-bottom: 75px;
+}
+
+header{
+    border-bottom: solid 2px rgb(235,206,151);
+    padding: 10px;
+    font-size: 32px;
+    color: rgb(235,206,151);
+    }
+
+.chamada {
+    background: rgb(163, 92, 58);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+.Series{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.SeriesMarvel{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.SeriesMarvel img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.SeriesMarvel img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
